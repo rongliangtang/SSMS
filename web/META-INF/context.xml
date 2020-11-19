@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/">
+    <Resource name="jdbc/mysqlds"
+              auth="Container"
+              type="javax.sql.DataSource"
+              username="root"
+              password="6610176trl"
+              maxIdle="30"
+              maxWaitMillis="10000"
+              maxTotal="100"
+              driverClassName="com.mysql.cj.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/javaweb?&amp;useSSL=false&amp;serverTimezone=UTC&amp;allowPublicKeyRetrieval=true"
+              logAbandoned="true"
+    />
+</Context>
