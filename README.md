@@ -18,8 +18,8 @@ CREATE TABLE `user` (
 );
 
 CREATE TABLE `score` (
-	  `classname` varchar(32) NOT NULL,
-	  `score` varchar(32) NOT NULL,	
+    `classname` varchar(32) NOT NULL,
+    `score` varchar(32) NOT NULL,	
     `username` varchar(32) NOT NULL,
     `creatime` timestamp DEFAULT CURRENT_TIMESTAMP,
     constraint score PRIMARY KEY (`classname`,`username`),
