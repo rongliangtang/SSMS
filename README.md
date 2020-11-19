@@ -1,8 +1,16 @@
 # SSMS
 javaweb课设-学生个人成绩管理系统
+
+
 idea+tomcat9+mysql8
+
+
 UI用bootstrap、jquery、growl
+
+
 javaweb用了jsp、servlet、javabean、filter
+
+
 
 数据库建表语句如下
 ```
